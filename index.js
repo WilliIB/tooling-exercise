@@ -46,7 +46,7 @@ function createCard(id) {
    function cardImage(id) {
       const cardImage = document.createElement("img");
       cardImage.classList.add("card-image");
-      cardImage.src = "./Resources/building3d-" + id + ".jpg";
+      cardImage.src = "./Resources/building3d-" + id + ".JPG";
       card.appendChild(cardImage);
    }
    cardImage(id);
